@@ -1,0 +1,57 @@
+.wrapper{
+    background: white;
+   
+    margin-right: 15rem;
+    margin-left: 15rem;
+
+
+    
+}
+.wrapper>img{
+    margin:0;
+    margin-right: 50rem;
+    
+}
+.info>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: #242320;
+    padding-left: 15px;
+}
+
+.cover>img{
+    width: 100%;
+    
+}
+
+.bottom>p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: #242320;
+}
+.medias{
+    padding: 1rem;
+    margin-left: 25rem;
+    cursor: pointer;
+    background: #000;
+    width: 85px;
+    border-radius: 15px;
+  
+    
+
+    
+}
+.name{
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer{
+    font-size: 12px;
+}
