@@ -41,14 +41,41 @@
 .medias{
     padding: 1rem;
     margin-left: 25rem;
-    cursor: pointer;
-    background: #000;
+    
     width: 85px;
-    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   
     
 
     
+}
+
+.insta{
+    padding: 10px;
+    cursor: pointer; 
+    background: #000;
+     border-radius:50px;
+
+}
+
+
+.fb{
+    padding: 10px;
+    cursor: pointer; 
+    background: #000;
+     border-radius:50px;
+
+}
+
+
+.twtr{
+    padding: 10px;
+    cursor: pointer; 
+    background: #000;
+     border-radius:50px;
+
 }
 .name{
     font-size: 16px;
@@ -56,4 +83,6 @@
 }
 .footer{
     font-size: 12px;
+    text-align: left;
+    padding-left: 15px;
 }
