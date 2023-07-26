@@ -29,8 +29,8 @@ const Mail = () => {
           The survey will only take about 10 minutes to complete. For each
           survey response, we will donate $1 to charity .{" "}
           <a href="www.google.com" target="blank">
-            Click here{" "}
-          </a>{" "}
+            Click here
+          </a>
           to start the survey now.
           <br />
           <br />
