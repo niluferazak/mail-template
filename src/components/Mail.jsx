@@ -1,9 +1,9 @@
 import React from "react";
 import "./Mail.css";
 import logo from "./assets/flex_em_outsystems_logo.png";
-import cover from "./assets/survey.PNG";
+import cover from "./assets/MicrosoftTeams-image (2).png";
 import twtr from "./assets/logo-twitter 1.png";
-// import youtube from "./assets/play-square.png"
+// import youtube from "./assets/youtube.svg"
 import insta from "./assets/logo-instagram 1.png";
 import fb from "./assets/logo-fb-simple 1.png";
 
@@ -13,6 +13,13 @@ const Mail = () => {
       <img src={logo} alt="logo" />
       <div className="cover">
         <img src={cover} alt="cover" />
+        <div className="cover-text">
+          <h1> State of Application 
+            <br/>
+            Development Survey</h1>
+          <p>Make Your Voice Heard</p>
+          <button className="btn">Take survey</button>
+        </div>
       </div>
       <div className="info">
         <p>
@@ -27,11 +34,11 @@ const Mail = () => {
           <br />
           <br />
           The survey will only take about 10 minutes to complete. For each
-          survey response, we will donate $1 to charity .{" "}
+          survey response, we will donate $1 to charity.
           <a href="www.google.com" target="blank">
             Click here
           </a>
-          to start the survey now.
+          <span> to start the survey now</span>
           <br />
           <br />
           We hope you can find a few minutes in your day to participate!
@@ -46,7 +53,7 @@ const Mail = () => {
 
       <div className="bottom">
         <p>
-          ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
           <br />
           <br />
           <div className="medias">

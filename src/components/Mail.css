@@ -10,7 +10,8 @@
 .wrapper>img{
     margin:0;
     margin-right: 50rem;
-    padding: 10px;
+    padding: 30px;
+    
     
 }
 .info>p{
@@ -22,9 +23,38 @@
     color: #242320;
     padding-left: 15px;
 }
+.cover{
+    position: relative;
+}
 
 .cover>img{
     width: 100%;
+    height: auto;
+    
+}
+.cover-text{
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+.cover-text>h1{
+    font-weight: bold;
+}
+
+.btn{
+    padding: 10px;
+    margin-top: 18px;
+    /* margin-left: 50px; */
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    width: 150px;
+    box-shadow: white;
+    border-color: white;
+    font-size: 16px;
     
 }
 
@@ -37,41 +67,64 @@
     text-align: left;
     color: #242320;
     padding-left: 15px;
+    padding-right: 15px;
 }
 .medias{
     
+    
     gap: 1px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+    padding-bottom: 20px;
     
 }
 
 .insta{
-    padding: 10px;
+    
     cursor: pointer; 
-    background: #000;
-     border-radius:50px;
+   
 
+
+}
+.insta>img{
+    width: 20px;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 
 .fb{
-    padding: 10px;
+    
     cursor: pointer; 
-    background: #000;
-     border-radius:50px;
+   
+    
 
+}
+.fb>img{
+    width: 20px;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 
 .twtr{
-    padding: 10px;
+    
     cursor: pointer; 
-    background: #000;
-     border-radius:50px;
+  
+     
 
 }
+.twtr>img{
+    width: 20px;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
 .name{
     font-size: 16px;
     cursor: pointer;
@@ -80,4 +133,5 @@
     font-size: 12px;
     text-align: left;
     padding-left: 15px;
+    padding-bottom: 30px;
 }
