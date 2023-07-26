@@ -39,10 +39,8 @@
     padding-left: 15px;
 }
 .medias{
-    padding: 1rem;
-    margin-left: 25rem;
     
-    width: 85px;
+    gap: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
